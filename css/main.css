@@ -638,9 +638,9 @@ padding-top: 50px;
 }
 
 #contactContent h1{
-   padding-top: 0px;
+   padding-top: 15px;
     margin-left: 40px;
-
+    width: 73%;
 }
 #contactContent h2{
  padding-left: 40px;
