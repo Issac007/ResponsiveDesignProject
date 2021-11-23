@@ -1,0 +1,679 @@
+body{
+    
+     font-family: Tahoma , Arial, sans-serif;
+     margin: 0px;
+     color: #E5E8EB;
+    font-size: 18px;
+     border: 1px solid #F5F5F5;
+background-color: #000000;
+
+}
+
+#topSection{
+        
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+   justify-content: space-between;
+}
+
+#hdnHeader{
+position: absolute;
+    top: -9999px;
+    left: -9999px;
+}
+
+
+
+#introDynamo{
+   color:  rgba(255,255,255,0.7);
+    font-size: 40px;
+    /* https://www.pexels.com/photo/man-exercising-at-a-gym-4164510/ */
+    background-image: url(../images/HeaderBg.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 72vh;
+    padding-top: 150px;
+    text-align: left;
+    padding-left: 40px;
+}
+
+#introDynamo h2{
+   color:  rgba(255,255,255,0.8);
+    margin: 0px;
+    text-align: left;
+    
+}
+#introDynamo p{
+    font-size: 25px;
+    font-style: italic;
+    padding-top: 0px;
+    margin: 0px;
+   color:  rgba(255,255,255,0.8);
+    text-align: left;
+    
+}
+#registerBox{
+    margin-top: 100px;
+}
+.btnStyles{
+    color:  #ffffff;
+    margin-top: 50px;
+    text-align: left;
+    background-color: #A71111;
+    width: 200px;
+    height: 40px;
+    font-size: 25px;
+    text-align: center;
+    border: 0px;
+    border-radius: 5px;
+  
+    
+    
+}
+
+
+nav{
+    margin: auto;
+    width: 100%;
+    padding-bottom: 5px;
+    text-align: center;
+    font-size: 23px;
+    font-family:Georgia ,"Times New Roman" , serif;
+   
+}
+
+#searchBox{
+    padding-top: 25px;
+        display: flex;
+    flex-direction: row;
+   justify-content: space-between;
+    height: 30px;
+}
+
+nav a{
+    text-decoration: none;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-style: italic;
+    padding-top: 20px;
+    
+}
+
+nav a:link { color: rgba(255,255,255,0.7); }
+nav a:visited {color: rgba(180,220,240,0.5); }
+nav a:hover { color: rgba(200,215,200,.5);  }
+
+
+main{
+    
+color:  rgba(255,255,255,0.9);
+    padding-bottom: 20px;
+}
+
+main p,h1,h5,h3{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+main h1{
+   color:  rgba(255,255,255,0.7); 
+}
+
+
+#featuresBox{
+    padding-left: 40px;
+    padding-right: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 200px 200px;
+    text-align: center;
+grid-gap:5px;
+    border-collapse: collapse;
+}
+#featuresBox div{
+    padding-top: 20px;
+     border: 1px solid #ffffff;
+}
+
+#contentTranform{
+    /*https://www.pexels.com/photo/person-wearing-black-shorts-and-blue-lace-up-low-top-sneaker-holding-black-barbell-841131/ */
+    background-image: url(../images/pexels-victor-freitas-841131.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+    font-size: 20px;
+}
+
+#contentTranform p {
+ width:30%;
+    
+}
+
+#contentTranform h3{
+width:70%;
+    font-size: 50px;
+    padding-top: 50px;
+    margin: 0px;
+    font-variant-caps: all-petite-caps;
+}
+
+#exploreBox{
+    padding-left: 40px;
+}
+
+footer{
+    color: #BEC2BD;
+    font-size: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    padding-top: 5px;;
+    border-bottom: 1px solid #F5F5F5;
+    height: 240px;
+}
+
+#footerCopyright{
+    text-align: center;
+        font-size: 18px;
+    padding-bottom: 20px;
+      padding-top: 20px;
+}
+#footerContents li{
+   padding: 5px;
+    padding-left: 0px;
+    font-size: 18px;
+    list-style: none;
+    text-align: left;
+ }
+
+#footerContents{
+    display: flex;
+    flex-direction: row;
+    padding-top: 5px;
+    justify-content:space-between;
+    padding-right: 10px;
+    padding-left: 105px;
+}
+footer a{
+    text-decoration: none;
+    color: #E5E8EB;
+    font-size: 18px
+    
+}
+footer  h5{
+     color: #F5F5F5;
+    font-size: 20px;
+    margin: 0px;
+     text-align: left;
+    padding-left: 0px;
+    padding-bottom: 5px;
+}
+footer button{
+    color:  #ffffff;
+    text-align: left;
+    background-color: #A71111;
+    width: 167px;
+    height: 30px;
+    font-size: 25px;
+    text-align: center;
+    border: 0px;
+}
+::placeholder {
+  color: #000000;
+    font-size: 14px;
+    padding: 5px;
+}
+#searchBox button{
+     color:  #ffffff;
+    text-align: left;
+   background-color: #A71111;
+     width: 30px;
+    border: 0px;
+}
+footer input[type="text"]{
+     width: 248px;
+}
+footer textarea{
+     width: 250px;
+}
+footer a:link { color: rgba(255,255,255,0.5); }
+footer a:visited {color: rgba(200,230,250,0.5); }
+footer a:hover { color: rgba(225,225,225); }
+    
+#plansContent h1{
+    color: #ffffff;
+   padding-top: 15px;
+font-size: 6vh;
+text-align: center;
+    
+
+}
+
+#plansContent{
+     background-color: #A71111;
+    margin-left: 40px;
+    margin-right: 40px;
+    height: 80px;
+}
+table{
+    border: 1px solid #000000;
+    width:70%;
+    margin-left: 40px;
+    margin-right: auto;
+    margin-top: 30px;
+    border-collapse: collapse;
+    padding:20px; 
+    font-size: 20px;
+    
+   
+}
+td, th { padding: 6px; 
+    border: 1px solid #ccc;
+    text-align: left; 
+    padding: 10px;
+}
+th{
+   color: rgba(225,235,245,.7);
+}
+caption{
+    color: rgba(255,255,255,.8);
+    font-size: 23px;
+    border: 1px solid #ffffff;
+    border-bottom: 0px;
+    border-collapse: collapse;
+     background-color: #A71111;
+    padding: 10px;
+}
+#contentPlans{
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+}
+#contentPlans img{
+    padding-right: 40px;
+        margin-top: 30px;
+} 
+
+
+#planBenefits h1{
+    width: 30%;
+    color: #ffffff;
+font-size: 4vh;
+text-align: center;
+     background-color: #A71111;
+   padding-top: 5px;
+    padding-bottom: 5px;
+      margin-left: 40px;
+    margin-right: 40px;
+    
+
+}
+
+#planBenefits{
+        /*https://www.pexels.com/photo/man-in-black-t-shirt-and-black-pants-playing-skateboard-4761352/ */
+    background-image: url(../images/pexels-cottonbro-4761352.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+    font-size: 20px;
+    padding-top: 50px;
+
+}
+
+#planBenefits ul{
+        padding-left: 60px;
+    text-align: left;
+    
+}
+
+#planBenefits li{
+        padding-bottom:  15px;
+    text-align: left;
+    
+}
+#contactContent{
+
+            /*https://www.pexels.com/photo/man-sitting-on-the-floor-and-stretching-4164770/ */
+    background-image: url(../images/pexels-ivan-samkov-4164770.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+#contactContent h1{
+         background-color: #A71111;
+    color: #ffffff;
+   padding-top: 15px;
+    padding-bottom: 15px;
+font-size: 6vh;
+text-align: center;
+    margin-left: 40px;
+    margin-right: 40px;
+
+}
+#contactContent h2{
+ padding-left: 40px;
+    padding-top: 80px;
+
+}
+#contactContent p{
+ padding-left: 40px;
+    padding-top: 0px;
+     padding-bottom: 30px;
+    width: 30%;
+    font-size: 16px;
+
+}
+    form {  width: 30%; 
+        display: grid;
+        grid-gap: 1em;
+        grid-template-columns: 6em 1fr ;
+        padding-left: 40px;
+    }
+
+  input[type="submit"]{
+        
+        color:  #ffffff;
+    text-align: left;
+    background-color: #A71111;
+    width: 167px;
+    height: 30px;
+    font-size: 25px;
+    text-align: center;
+    border: 0px;
+          grid-column-start: 2;
+        width: 9em;
+        
+    }
+form input, textarea { 
+    margin-bottom: .5em;
+}
+
+#mobile{
+    display: none;
+}
+
+@media (max-width: 768px) {
+    #mobile{
+    display: block;
+}#desktop{
+    display: none;
+}
+    #topSection{
+    display: flex;
+    flex-direction: column;
+   justify-content: space-around;
+        height: auto;
+}
+    #topSection img{
+        
+        width: 100%;
+            padding-bottom: 10px;
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+    font-size: 28px;
+   
+}
+    nav a {
+        padding-bottom: 10px;
+        border-bottom: 1px solid #ffffff;
+    }
+
+#searchBox input{
+    padding-top: 5px;
+    width: 100%;
+    border-radius: 10px;
+}
+    #searchBox button{
+display: none;
+}
+    ::placeholder {
+    font-size: 20px;
+        text-align: center;
+}
+    #introDynamo{
+    padding-top: 35px;
+    background-size:contain;
+    text-align: center;
+        padding-right: 40px;
+        height: 38vh;
+        padding-left:40px; 
+}
+
+#introDynamo h2{  
+    padding-right: 20px;
+    padding-bottom: 0px;
+    
+}
+#introDynamo p{
+display: none;
+    
+}
+    #registerBox{
+    margin-top: 0px;
+        margin-left: 0px;
+        padding-left: 0px;
+}
+    #registerBox button{
+    margin-top: 0px;
+         padding-left: 0px;
+         margin-left: 0px;
+}
+    .btnStyles{
+    width: 100%;
+}
+    #contentTranform{
+    background-size:contain;
+    height: 45vh;
+        margin-bottom: 0px;
+
+}
+
+#contentTranform p {
+ width:auto;
+    font-size: 17px;
+    
+}
+
+#contentTranform h3{
+width:auto;
+    font-size: 35px;
+    padding-top: 0px;
+}
+    #exploreBox{
+    padding-left: 40px;
+         padding-right: 40px;
+        padding-top: 0px;
+}
+        #exploreBox button{
+
+        margin-top: 25px;
+}
+    main h1{
+        margin-top:  0px;
+    }
+    #featuresBox{
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 200px 200px 200px;
+}
+#featuresBox div{
+    padding-top: 20px;
+     border: 1px solid #ffffff;
+}
+    footer{
+    font-size: 24px;
+    height: auto;
+}
+
+#footerCopyright{
+        font-size: 14px;
+
+}
+#footerContents li{
+    font-size: 24px;
+    
+ }
+
+#footerContents{
+    flex-direction: column;
+    padding-left:10px;
+  
+}
+footer a{
+    font-size: 24px
+    
+}
+footer  h5{
+    font-size: 30px;
+}
+footer button{
+    width: 310px;
+
+}
+    footer input[type="text"]{
+      width: 300px;
+        height: 25px;;
+}
+footer textarea{
+     width: 303px;
+}
+    #plansContent h1{
+         margin-top:  20px;
+    }
+    #contentPlans img{
+        display: none;
+    }
+    table,thead,tbody,th,td,tr,caption{
+        display: block;
+    }
+    
+    thead tr{
+        position: absolute;
+        top:-9999px;
+        left: -9999px;
+    }
+    
+    tr{
+        border: 1px solid #ffffff;
+        border-bottom: 0px;
+    }
+    
+    td{
+        border: none;
+        border-bottom: 1px solid #ffffff;
+        position: relative;
+        padding-left: 60%;
+    }
+    
+    td:before{
+        position: absolute;
+        top: 6px;
+        left: 6px;
+        width: 45%;
+        padding-right: 10px;
+        white-space: nowrap;
+    }
+    td:nth-of-type(1):before { content: "Plan"; }
+    td:nth-of-type(2):before { content: "Rate(per package)"; }
+    td:nth-of-type(3):before { content: "Duration";}
+       td:nth-of-type(4):before { content: "Client Ratings"; }
+    td:nth-of-type(5):before { content: "Timing";}
+    caption{
+        width: auto;
+    }
+    tr:nth-child(even) {background-color: #575757;}
+#contentPlans{
+    height: auto;
+    padding-left: 0px;
+}
+    table{padding-left: 0px;
+        width: 100%;
+        padding-right: 40px;
+        font-size: 17px;
+    }
+    
+
+
+#planBenefits{
+    background-size:contain;
+    height: 45vh;
+    font-size: 17px;
+    padding-top: 10px;
+
+
+}
+#planBenefits h1{
+    width: auto;
+font-size: 25px;
+    
+
+}
+
+#planBenefits ul{
+        padding-left: 60px;
+    text-align: left;
+    
+}
+
+#planBenefits li{
+        padding-bottom:  5px;
+    text-align: left;
+    
+}
+    #contactContent{
+padding-top: 50px;
+    /* https://www.pexels.com/photo/man-in-black-shirt-and-pants-standing-on-the-floor-4761779/ */
+    background-image: url(../images/pexels-cottonbro-4761779.jpg);
+    background-size:contain;
+    background-repeat: no-repeat;
+    height: 100vh;
+        
+        padding-right: 40px;
+}
+
+#contactContent h1{
+   padding-top: 0px;
+    margin-left: 40px;
+
+}
+#contactContent h2{
+ padding-left: 40px;
+    padding-top: 15px;
+    font-size: 20px;
+
+}
+#contactContent p{
+    width: auto;
+    font-size: 15px;
+
+}
+form {
+    padding-top: 50px;
+        display: flex;
+        flex-direction: column;
+         width: auto; 
+}
+
+input[type="submit"]{
+width: auto;
+        
+    }
+#contactContent label{ 
+    padding-bottom:  0px;
+    margin-bottom: 0em;
+}
+ #contactContent   input, textarea{ 
+    margin-bottom: .5em;
+     padding-top:  0px;
+}
+   
+}
+
+
+
